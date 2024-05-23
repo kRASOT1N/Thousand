@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "424427190029",
+    "project_id": "thousand-3e621",
+    "storage_bucket": "thousand-3e621.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424427190029:android:da1b8639c70e5a1b6ee244",
+        "android_client_info": {
+          "package_name": "com.kras0t1n.thousand"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw58G6NkbXxg4SZfIH04p1VWAzjyEf2qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

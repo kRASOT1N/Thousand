@@ -1,0 +1,42 @@
+<!-- activity_game.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Game">
+
+    <!-- Текстовое поле для отображения информации о текущем ходе или состоянии игры -->
+    <TextView
+        android:id="@+id/gameInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Информация о текущей игре"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Скроллвью для отображения карт игроков -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Контейнер для отображения карт игроков -->
+        <LinearLayout
+            android:id="@+id/playersContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!-- Кнопка для начала новой игры -->
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Новая игра"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
